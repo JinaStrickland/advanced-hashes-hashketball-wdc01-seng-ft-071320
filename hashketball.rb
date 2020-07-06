@@ -213,11 +213,11 @@ def big_shoe_rebounds
             shoe_size = element[:shoe]
             #puts element[:rebounds]
           end
+          puts element[:rebounds]
         end
       end
     end
   end
-  return element[:rebounds]
 end
 
 
