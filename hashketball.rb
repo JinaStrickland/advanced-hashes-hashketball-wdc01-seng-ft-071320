@@ -216,7 +216,7 @@ def big_shoe_rebounds
       end
     end
   end
-  return shoe_size
+  return element[:shoe]
 end
 
 
