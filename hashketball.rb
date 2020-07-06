@@ -223,9 +223,6 @@ end
 
 
 
-
-
-
 # player[:shoe].values.max
 #     team_data.each do |attribute, data|
 #       if attribute == :players
