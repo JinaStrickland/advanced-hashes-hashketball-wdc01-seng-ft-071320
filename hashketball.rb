@@ -211,6 +211,7 @@ def big_shoe_rebounds
         data.each do |element|
           if element[:shoe] > shoe_size
             shoe_size = element[:shoe]
+            binding.pry
        end
      end
     end
