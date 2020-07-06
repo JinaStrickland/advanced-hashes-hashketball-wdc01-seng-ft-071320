@@ -211,12 +211,13 @@ def big_shoe_rebounds
         data.each do |element|
           if element[:shoe] > shoe_size
             shoe_size = element[:shoe]
-            puts element[:rebounds]
+            #puts element[:rebounds]
           end
         end
       end
     end
   end
+  return element[:rebounds]
 end
 
 
